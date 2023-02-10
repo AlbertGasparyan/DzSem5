@@ -11,4 +11,4 @@ def step_num(a,b):
 a=int(input('Enter number:'))
 b=int(input('Enter number step:'))
 res=step_num(a,b)
-print(res)
+print(f'Число {a} в степени {b} ---> {res}')
