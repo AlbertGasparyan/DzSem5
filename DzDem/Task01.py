@@ -4,12 +4,9 @@
 
 
 def step_num(a,b):
-    if a==0 and b==0:
+    if b==0:
         return 1
-    if b>0:
-        a*=a
-        step_num(a,b-1)
-    return a
+    return a*step_num(a,b-1)
 
 a=int(input('Enter number:'))
 b=int(input('Enter number step:'))
